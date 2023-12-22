@@ -1,0 +1,31 @@
+.performer_card {
+    
+  &_img {
+    img {
+    }
+  }
+  h4 {
+    font-size: 30px;
+    font-family: "Anton", sans-serif;
+    color: #fff;
+    font-weight: 400;
+    margin-bottom: 14px;
+    text-align:start;
+    margin-top: 10px;
+  }
+  p {
+    text-align:start;
+    color: #ff4533;
+    font-weight: 400;
+    font-size: 20px;
+
+  }
+}
+#card{
+    perspective:600px;
+}
+#offset{
+    position:absolute;
+    top:0px;
+    left:0px;
+  }

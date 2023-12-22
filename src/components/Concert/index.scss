@@ -1,0 +1,62 @@
+#concert {
+  .concert_area {
+    min-height: 850px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-image: url("https://preview.colorlib.com/theme/eventcon/img/banner/banner.png.webp");
+    .concert_overlay {
+      background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, black 100%);
+      .concert_container {
+        max-width: 1140px;
+        margin: auto;
+        padding: 280px 0px;
+        .concert_content {
+          position: relative;
+          min-height: 290px;
+          &_left {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            z-index: 1;
+          }
+          &_text {
+            position: absolute;
+            z-index: 2;
+            width: 100%;
+            margin: auto;
+            span {
+              font-size: 30px;
+              font-weight: 400;
+              color: #ff4533;
+              font-family: "Anton", sans-serif;
+            }
+            h1 {
+              font-family: "Monoton", cursive;
+              font-size: 122px;
+              text-transform: uppercase;
+              font-weight: 400;
+              color: #fff;
+              line-height: 1;
+              margin-top: 55px;
+              margin-bottom: 40px;
+            }
+            p {
+              font-size: 30px;
+              font-weight: 400;
+              color: #fff;
+              margin-top: 10px;
+              font-family: "Anton", sans-serif;
+            }
+          }
+          &_right {
+            position: absolute;
+            top: 0;
+            right: 0;
+            z-index: 1;
+          }
+        }
+      }
+    }
+  }
+}

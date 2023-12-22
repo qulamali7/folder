@@ -1,0 +1,30 @@
+#performer{
+    background: #000000;
+    padding-top: 135px;
+    padding-bottom: 63px;
+    .performer_container{
+        max-width: 1140px;
+        margin: auto;
+        .performer_title{
+            margin-bottom: 80px;
+            h3{
+                font-size: 80px;
+                font-weight: 400;
+                color: #fff;
+                font-family: "Anton", sans-serif;
+                padding-bottom: 7px;
+                text-align: start;
+            }
+        }
+        .performer_cards{
+            &_content{
+                width: 72%;
+                margin: auto;
+                display: flex;
+                flex-wrap: wrap;
+                gap: 80px;
+
+            }
+        }
+    }
+}

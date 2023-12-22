@@ -1,74 +1,54 @@
 #header {
-    height: 90px;
-    padding: 10px 0px;
-    .header_container {
-        
-        width: 90%;
+  background-color: black;
+  line-height: 1.5;
+  .header_area {
+    left: 0;
+    right: 0;
+    width: 100%;
+    top: 0;
+    z-index: 3;
+    position: fixed;
+    &_main {
+      &_container {
+        max-width: 1140px;
         margin: auto;
-
         .header_content {
-            padding: 10px 0px;
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-
-            .header_logo {
-               
-            }
-
-            .header_icon {
-
-                &_content {
-                    display: flex;
-                    gap: 30px;
-                    align-items: center;
-                    .header_content_search_menu{
-                        display: flex;
-                        align-items: center;
-                        gap: 50px;
-                        padding-left: 20px;
-                        .header_content_search{
-                            i{
-                                font-size: 14px;
-                            }
-                        }
-                        .header_content_menu{
-                            i{
-                                font-size: 21px;
-                            }
-                        }
-                        
-                    }
-                    i {
-                        color: #000;
-                        font-size: 14px;
-                    }
-
-                    &_mail {
-                        display: flex;
-                        align-items: center;
-                        gap: 5px;
-
-                        p {
-                            color: #000;
-                            font-size: 14px;
-                        }
-                    }
-
-                    &_telephone {
-                        display: flex;
-                        align-items: center;
-                        gap: 5px;
-
-                        p {
-                            color: #000;
-                            font-size: 14px;
-                        }
-                    }
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          .header_logo {
+          }
+          nav {
+            ul {
+              display: flex;
+              align-items: center;
+              gap: 40px;
+              li {
+                a {
+                  color: #fff;
+                  font-size: 20px;
+                  text-transform: capitalize;
+                  font-weight: 400;
+                  display: inline-block;
+                  padding: 30px 0 30px 0;
+                  font-family: "Anton", sans-serif;
+                  text-transform: uppercase;
                 }
-
+              }
             }
-            
+          }
+          button {
+            background: #ff4533;
+            font-family: "Anton", sans-serif;
+            padding: 12px 46px;
+            font-size: 16px;
+            font-weight: 400;
+            border: 1px solid transparent;
+            color: #fff;
+            text-transform: capitalize;
+          }
         }
+      }
     }
+  }
 }
