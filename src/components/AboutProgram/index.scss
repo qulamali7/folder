@@ -1,0 +1,97 @@
+#about_program {
+    background: #000000;
+    padding: 150px 0px;
+
+    .about_program_container {
+        max-width: 960px;
+        margin: auto;
+
+
+        .about_program_title {
+            padding: 0px 15px;
+
+            &_content {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                gap: 50px;
+
+                h3 {
+                    font-size: 80px;
+                    font-weight: 400;
+                    color: #fff;
+                    z-index: 0;
+                    line-height: 42px;
+                    font-family: "Anton", sans-serif;
+                }
+
+                p {
+                    font-size: 20px;
+                    color: #AAB1B7;
+                    line-height: 32px;
+                    font-weight: 400;
+                    font-family: "Muli", sans-serif;
+                }
+            }
+        }
+
+    
+
+        .about_program_content {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-top: 80px;
+
+            &_img {
+                width: 55%;
+
+            }
+
+            &_text {
+                width: 35%;
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 30px;
+
+                h4 {
+                    font-family: "Anton", sans-serif;
+                    font-size: 30px;
+                    font-weight: 400;
+                    color: #FF4533;
+                    text-align: start;
+                }
+
+                p {
+                    text-align: start;
+                    font-size: 20px;
+                    color: #AAB1B7;
+                    line-height: 32px;
+                    font-weight: 400;
+                    font-family: "Muli", sans-serif;
+                }
+
+                button {
+                    background: #ff4533;
+                    font-family: "Anton", sans-serif;
+                    padding: 12px 46px;
+                    font-size: 20px;
+                    font-weight: 400;
+                    border: 1px solid transparent;
+                    color: #fff;
+                    text-transform: capitalize;
+                    transition: 0.5s all ease;
+
+                    &:hover {
+                        cursor: pointer;
+                        background-color: transparent;
+                        color: #ff4533;
+                        border: 1px solid #ff4533;
+                    }
+                }
+            }
+        }
+    }
+}

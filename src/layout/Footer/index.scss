@@ -1,0 +1,73 @@
+#footer {
+    padding-top: 148px;
+   
+    background: #000;
+
+    .footer_top {
+        padding-bottom: 140px;
+        &_container {
+            max-width: 960px;
+            margin: auto;
+            padding: 0px 200px;
+            .footer_top_content {
+                h4 {
+                    font-size: 30px;
+                    font-weight: 400;
+                    color: #FF4533;
+                    margin-bottom: 24px;
+                    font-family: "Anton", sans-serif;
+                }
+
+                h3 {
+                    font-size: 30px;
+                    font-weight: 400;
+                    color: #fff;
+                    font-family: "Anton", sans-serif;
+                }
+
+                p {
+                    font-size: 20px;
+                    color: #AAB1B7;
+                    line-height: 32px;
+                    font-weight: 400;
+                    font-family: "Muli", sans-serif;
+                    padding: 30px 0px;
+                }
+
+                button {
+                    background: #ff4533;
+                    font-family: "Anton", sans-serif;
+                    padding: 12px 46px;
+                    font-size: 20px;
+                    font-weight: 400;
+                    border: 1px solid transparent;
+                    color: #fff;
+                    text-transform: capitalize;
+                    transition: 0.5s all ease;
+
+                    &:hover {
+                        cursor: pointer;
+                        background-color: transparent;
+                        color: #ff4533;
+                        border: 1px solid #ff4533;
+                    }
+                }
+            }
+
+            
+        }
+    }
+    .copyright {
+        padding-bottom: 40px;
+        p {
+            font-size: 14px;
+            color: #AAB1B7;
+            margin-bottom: 0;
+            font-weight: 400;
+            font-family: "Muli", sans-serif;
+            span{
+                color: #FF4533;
+            }
+        }
+    }
+}

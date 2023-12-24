@@ -1,5 +1,5 @@
-#header {
-  background-color: black;
+.header {
+  background-color: transparent;
   line-height: 1.5;
   .header_area {
     left: 0;
@@ -8,21 +8,25 @@
     top: 0;
     z-index: 3;
     position: fixed;
+
     &_main {
       &_container {
         max-width: 1140px;
         margin: auto;
+
         .header_content {
           display: flex;
           align-items: center;
           justify-content: space-between;
-          .header_logo {
-          }
+
+          .header_logo {}
+
           nav {
             ul {
               display: flex;
               align-items: center;
               gap: 40px;
+
               li {
                 a {
                   color: #fff;
@@ -37,6 +41,7 @@
               }
             }
           }
+
           button {
             background: #ff4533;
             font-family: "Anton", sans-serif;
@@ -46,9 +51,23 @@
             border: 1px solid transparent;
             color: #fff;
             text-transform: capitalize;
+            transition: 0.5s all ease;
+
+            &:hover {
+              cursor: pointer;
+              background-color: transparent;
+              color: #ff4533;
+              border: 1px solid #ff4533;
+            }
           }
         }
       }
     }
+  }
+}
+
+.sticky {
+  .header_area {
+    background-color: #000;
   }
 }

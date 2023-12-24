@@ -29,7 +29,7 @@ const Concert = () => {
                 <div className="concert_content_text">
                   <span data-aos="zoom-in-left"  data-aos-duration="2000">12 Feb, 2020</span>
                   <h1 data-aos="zoom-in-right" data-aos-duration="2000">CONCERT 2020</h1>
-                  <p>Green Avenue, New York</p>
+                  <p data-aos="zoom-in-right"  data-aos-duration="2000">Green Avenue, New York</p>
                 </div>
                 <div
                   className="concert_content_right"

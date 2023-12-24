@@ -1,10 +1,20 @@
-import React from "react";
+import React, { useState } from "react";
 import "./index.scss";
 import { Link } from "react-router-dom";
 const Header = () => {
+  const [navbar, setNavbar] = useState(false);
+  const stickyNavbar = () => {
+    if (window.scrollY >= 5) {
+      setNavbar(true);
+    } else {
+      setNavbar(false);
+    }
+  }
+  window.addEventListener("scroll", stickyNavbar);
   return (
     <>
-      <header id="header">
+      <header className={`header ${navbar === true ? "sticky " : ""
+        }`}>
         <div className="header_area">
           <div className="header_area_main">
             <div className="header_area_main_container">

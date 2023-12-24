@@ -1,0 +1,108 @@
+#program_details {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-image: url("https://preview.colorlib.com/theme/eventcon/img/program_details/details_banner.png.webp");
+    
+
+    .program_details_overlay {
+        background: linear-gradient(to bottom, black 0%, rgba(0, 0, 0, 0.8) 100%);
+        padding: 80px 0px;
+        .program_details_container {
+            max-width: 960px;
+            margin: auto;
+
+            .program_details_title {
+                margin-bottom: 50px;
+                h3 {
+                    font-size: 80px;
+                    font-weight: 400;
+                    color: #fff;
+                    padding-bottom: 7px;
+                    font-family: "Anton", sans-serif;
+                }
+            }
+
+            .program_details_content {
+
+                padding: 0px 30px;
+
+                .program_details_cards {
+
+
+                    .program_details_card {
+                        display: flex;
+
+
+
+                        .other {
+                            width: 50%;
+
+                        }
+
+                        &_content {
+                            width: 50%;
+                            position: relative;
+                            .circle1{
+                                position: absolute;
+                                background: #1EC6B6;
+                                width: 26px;
+                                height: 26px;
+                                border-radius: 50%;
+                                top: -5px;
+                                left: -15px;
+                            }
+                            .circle2 {
+                                position: absolute;
+                                background: #1EC6B6;
+                                width: 26px;
+                                height: 26px;
+                                border-radius: 50%;
+                                top: -5px;
+                                right: -15px;
+                            }
+
+                            span {
+                                color: #FF4533;
+                                font-size: 30px;
+                                font-family: "Anton", sans-serif;
+                                display: block;
+                                margin-bottom: 8px;
+                            }
+
+                            h4 {
+                                font-family: "Anton", sans-serif;
+                                font-size: 20px;
+                                font-weight: 400;
+                                color: #fff;
+                                margin-bottom: 10px;
+                            }
+
+                            &_img {
+                                margin-bottom: 10px;
+
+                                img {}
+                            }
+
+                            h3 {
+                                font-family: "Anton", sans-serif;
+                                font-size: 20px;
+                                font-weight: 400;
+                                color: #fff;
+                                margin-top: 10px;
+                            }
+                        }
+
+                        .card1 {
+                            border-left: 2px solid grey;
+                        }
+
+                        .card2 {
+                            border-right: 2px solid grey;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
