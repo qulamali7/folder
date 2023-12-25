@@ -9,18 +9,22 @@ const Header = () => {
     } else {
       setNavbar(false);
     }
-  }
+  };
   window.addEventListener("scroll", stickyNavbar);
   return (
     <>
-      <header className={`header ${navbar === true ? "sticky " : ""
-        }`}>
+      <header className={`header ${navbar === true ? "sticky " : ""}`}>
         <div className="header_area">
           <div className="header_area_main">
             <div className="header_area_main_container">
               <div className="header_content">
                 <div className="header_logo">
-                  <Link><img src="https://preview.colorlib.com/theme/eventcon/img/logo.png.webp" alt="" /></Link>
+                  <Link to="/">
+                    <img
+                      src="https://preview.colorlib.com/theme/eventcon/img/logo.png.webp"
+                      alt=""
+                    />
+                  </Link>
                 </div>
                 <nav>
                   <ul>
@@ -28,22 +32,20 @@ const Header = () => {
                       <Link>HOME</Link>
                     </li>
                     <li>
-                      <Link>PERFORMER</Link>
+                      <Link to="/performer">PERFORMER</Link>
                     </li>
                     <li>
-                      <Link>PAGES</Link>
+                      <Link>PROGRAM</Link>
                     </li>
                     <li>
-                      <Link>BLOG</Link>
+                      <Link>ABOUT</Link>
                     </li>
                     <li>
                       <Link>CONTACT</Link>
                     </li>
                   </ul>
                 </nav>
-                <button>
-                  Buy Tickets
-                </button>
+                <button>Buy Tickets</button>
               </div>
             </div>
           </div>
